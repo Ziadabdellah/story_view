@@ -495,6 +495,12 @@ class StoryViewState extends State<StoryView> with TickerProviderStateMixin {
           _removeNextHold();
           _goBack();
           break;
+        case PlaybackState.mute:
+          // TODO: Handle this case.
+          throw UnimplementedError();
+        case PlaybackState.unmute:
+          // TODO: Handle this case.
+          throw UnimplementedError();
       }
     });
 
